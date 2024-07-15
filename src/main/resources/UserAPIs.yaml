@@ -1,0 +1,27 @@
+openapi: 3.0.3
+info:
+  title: Bank Backend APIs
+  description: Specifications for Bank Backend APIs
+  version: 1.0.0
+servers:
+  - description: local test
+    url: 'https://localhost:8080/Users'
+paths:
+  /Users:
+    summary: Users
+    description: Get all the users information
+    post:
+      tags:
+        - Users
+      operationId: createUsers
+      responses:
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+
+
+    
+  
