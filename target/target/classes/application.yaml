@@ -1,5 +1,0 @@
-spring:
-  data:
-    mongodb:
-        uri: mongodb+srv://root:root@cluster0.0ylmf6w.mongodb.net/?retryWrites=true&w=majority
-        database: Bank
